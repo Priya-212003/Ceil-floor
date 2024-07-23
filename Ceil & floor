@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        float i =s.nextFloat();
+        int a = s.nextInt();
+        int b = s.nextInt();
+        int c = s.nextInt();
+        System.out.println((int)Math.floor(i));
+         System.out.println((int)Math.ceil(i));
+         System.out.println((int)Math.round(i));
+         System.out.println((int)Math.sqrt(a));
+         System.out.println((int)Math.pow(b,c));
+        
+    }
+}
